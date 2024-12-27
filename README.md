@@ -1,1 +1,56 @@
-# BFC5935
+java c
+BFC5935: Portfolio   Management   Theory
+2024 Semester   2
+INDIVIDUAL   ASSIGNMENT01       [ASM01]Objectives: This assignment is   designed to show   how the   topics   covered   so   far   –   namely,   Topic   1 Asset      Investments,   Topic   2   Portfolio   Theory   and   Topic   3   Asset   Pricing   Models   –   can   be   applied   using   real   financial   data and   Excel. It is also to   further   develop your technical   and   analytical   skills,   which   will   help   with your employability.Important   Note:   The   sample   period   and   correlation   applicable   depends   on the   allocated tutorial with   specific   tutor,   and   it   is   the   student’s   responsibility   to   know   the   tutorial   allocated   to   (e.g.   Tutorial   01   –   Mon   11am), as   well   as   the   tutor’sname.Plagiarism      Collusion:   Note   that   this   is   an   individual   assignment   and   that   it   is   not   a   group   work   –   please   read   all   the   relevant   documents   related   to   Plagiarism      Collusion   on   the   Monash   page   and   on   Moodle:
+https://www.monash.edu/students/admin/policies/academic-integrity
+Any   violations   are   officially   misconduct   and   will   be   dealt   with   seriously,   and   with   the   case   potentially   escalated to the   Faculty.
+Total Marks:   30 Marks   [12% of Total Assessment]Submission:    You will need to use the   Excel   Spreadsheet   Template   posted   on   Moodle   and   submit via   Moodle   by   the   due   date    time   as   stated   in   the   Unit   Guide.   Late   submission will   result   in   10%   penalty   each day   (including weekend  public   holiday).You   are also required to   submit the ‘signed’   assignment   cover   sheet   confirming that   this   is   your   own   work.   The   assignment without the   signed   cover   sheet will   be   deemed   incomplete   and   the   late   penalty   will   apply.
+[IMPORTANT] After uploading the files   (it will   appear   as   draft,   but the   files   are   actually   not   submitted   yet), you will need to click 'submit'   and the   ‘Status’   will   be   indicated   as   ‘Submitted   for   grading’   .
+Please   note   that you   are   only   allowed   one   submission   –   hence   it   is   your   responsibility   to   ensure   that all the submitted files   are   correct.Also,   we   would   advise   that,   it   is   best to   not   leave   until   the   last   minute   to   submit   (especially   given   that   the   ASM   does   not   take   that   long   to   complete),   please   feel   free   to   submit   at   least   1-2   days   before   the   deadline.For   the   cover   sheet,   you   can   submit   as   a   PDF   file,   or   alternatively,   you   can   have   your   signature   as   a   picture   and   paste   in   the   word   document.   If   your   signature   is   in   Chinese   (or   another   language),   it   is   completely fine.Tasks:    You    are    required    to    construct      portfolios      using      monthly      data      of    National    Australia      Bank Limited   (NAB),   and   Commonwealth   Bank   of   Australia   (CBA),   and   Qantas Airways   Limited   (QAN)   stocks   listed   on   the ASX   (Tip:   put ‘.ax’   after   the   stock   ticker   and   check   that   the   company’s   full   name   is   correct), over the following sample period   based   on   your Allocated   Tutorial:
+TUTOR / MARKER
+Tutorial Day    Time
+Sample Period
+Merlin    Manapon
+Mon   10am,   11am      12pm, Tue   11am
+2012   –   2014
+Tracy
+Fri   10am,   11am    12pm
+2015   –   2017
+Carol
+Fri   1pm,   2pm,   5pm      6pm
+2018   –   2020[Note   1]:   Using   incorrect   stocks   and/or   sample   period,   or   submitting   a   PDF   file,   will   incur   immediate   penalty   of   30%   [or   possibly   100%   if   the   entire   assignment   is   then   found   to   have   copied/plagiarised   another   assignment].
+[Note 2]:   As stated, you are required to use the template   provided   –   do   not   modify   or   add worksheets   –   This will also incur penalty. All results   required   can be   calculated   based   on   the   template   provide.[Note   3]:   You   are   required to   show workings   in the   form   of using   formulae   (i.e.   do   not   copy   and   paste   special   as   ‘value’)   as   the   marker   will   check   how   the   answers   are   calculated.   Answers   are   required   to   have 4 decimal   places.
+PART   1   [7   Marks]
+[1]                Download          monthly          NAB,             CBA                    QAN               (Adj          Close)          price          data             from          Yahoo          Finance:
+https://au.finance.yahoo.com/[Note that although this is Yahoo AU and that it shows the required dateformat to be'dd/mm/yyyy'   -    when    you    actually    input    the      date,      it    will      be      based      on      the      US      format    with      month      first      -      i.e.   'mm/dd/yyyy'. You will   have   to   select   'Monthly'   for   Frequency,   and   by   default, Yahoo   Finance   will   provide the end   of month prices.]
+Input the raw data into Worksheet W1-Monthly   Data[Note] You will need to also   obtain the   month   prior   to   the   starting   of the   sample   period   so that   you   can calculate the return in JAN at the beginning of   sample period. For example, if   your sample period   is   2003-2005, then you will also need to   obtain the   data   in   DEC代 写BFC5935: Portfolio Management Theory 2024 Semester 2
+代做程序编程语言   2002.
+Refer   to the ASM   Supporting   Document   on   Moodle   for   the   important   details   of downloading   and   using   data from Yahoo   Finance.
+[2]                In Worksheet W2-Calculations   –   Calculate   Monthly   Returns   based   on   the   price   relative   (or   HPY)   formula   [(Pt+1 / Pt) –   1] for NAB  CBA and the portfolio consisting of   two stocks   – Portfolio   1:    NAB      CBA   -   each   with   50%   weight.   Once   the   series   of   monthly   returns   are   obtained,   calculate   the   Arithmetic   Average   Return      (using   the   simple   AVERAGE   Function   in   Excel)   of   NAB      CBA   and   Portfolio   1 over the sample period.   [Note] Based on the   previous   example, JAN   2003 will   be ‘Month   1’ and   DEC   2002 will be ‘Month   0’ in the Template.
+[3]                In    Worksheet    W2-Calculations      –      calculate    Variance      and      Standard      Deviation         (based    on    the   formula taught   in   class   –   and   also   apply ‘n-1’   as   the   denominator   ([Note]   Do   not   use   excel   function   for this) for NAB  CBA and Portfolio   1.   Monthly   Returns, Variance   and   Standard   Deviation   are   then annualised.
+[Note]    To    annualise,    Monthly      Returns      and    Variance      are      multiplied    by      12.      Annual      Standard   Deviation   will be the square root of   Annual   Variance.
+[4]                In Worksheet W2-Calculations   –   Calculate   Covariance   between   these   two   stocks   over   the   sample   period using the formula taught   in   class.
+[Note] To use formula taught in class, first find the difference between return and mean   each month   for each stock, and second,   find the   product   of   the   differences   of   the   two   stocks.
+[5]                In Worksheet W2-Calculations   –   Calculate Correlation   between   these   two   stocks   over   the   sample   period using the formula taught in class   using   monthly   (not   annual)   figures.[6]                In    Worksheet   W2-Calculations   –   Calculate   the   Optimal   Weights   of   these   two   stocks   using   the   formula   taught   in   class,   and   subsequently   the   Minimum   Variance   Portfolio   1’s   (MVP   1)   Return   and Risk   (standard deviation)   based on the   optimal   weights   using   monthly   (not   annual)   figures.[7]                In Worksheet   W2-Calculations   –   Calculate the   Coefficient of   Variations   of NAB      CBA,   Portfolio   1 and MVP   1 using monthly   (not   annual)   figures.
+PART   2   [7   Marks]
+[8]                                                    In   Worksheet   W3-Calculations      –   Repeat   Steps    [2]   to    [7]    using   NAB      QAN.   In   this
+worksheet, the calculations will be for NAB,QAN,   Portfolio   2   and   MVP   2.
+PART   3   [4   Marks]
+[9]                   In Worksheet   W4-Beta   –   Calculate   the   Beta’sof NAB      QAN   with   the   Market   (Index)   Return.   (i.e.   each stock with the   market)[Note]   You   have   already   calculated   stock   returns   previously.   Now   you   need   to   calculate   Excess   Returns   for   both   stocks   and   Market.   To   run   regression,   you   will   need   to   first   add   Analysis   Tool   Pack in   Excel.
+Adding   Analysis   Tool   Pack   as   well   as   running   regression   have   been   discussed      demonstrated   Lecture   1    Lecture   3 – please refer   to   the   recordings.
+You need to have the regression results   in the   same   Worksheet   W4-Beta   –   output   the   results   from   column ‘K’ onwards in the same worksheet W4.
+PART 4   [12   Marks]
+In Worksheet W5-Analysis   – Answer   the following questions in   the   empty   cells   provided.   [Words Limit per question   is   200 words][10A]                            With   reference   to   W2      W3    -    Calculations,   compare   and   contrast   the   Return   and   Risk   of
+Portfolio    1    with    Portfolio    2.    Which    is    considered    to    be    more    efficient?    Identify    potential   factor(s) that cause one portfolio to be   more   efficient than   the   other.[10B]                            With   reference   to   W3    -    Calculations,   compare   the   performances   of   different   assets    (NAB,
+QAN,    Portfolio       2    and    MVP       2)    based       on      coefficient    of    variations.       In      reference    to      the   characteristics   of NAB and QAN, explain why this is   expected.[10C]                            With reference toW4 - Beta, provide the interpretations of   the   regression   output,   specifically
+the   explanations   of Intercept   and   Beta   (X Variable   1)   and   their   significance   (p-values)   in   W4-Beta.[Note]   Null   Hypothesis   of the   Regression   Variable(s)   is   that   it   is   equal   to   zero   (this   and   running   regression   in   Excel   were   also   covered   in   Business   Statistics).   If p-value   is   less   than   0.05   (0.01), then it is considered to be significant at the   5%   (1%) level – that is, the coefficient   is statistically  significantly different   from   zero.[10D]                            With reference toW4 - Beta, are the regression results consistent   with the CAPM predictions?
+Explain. And ‘If’   the results are inconsistent, also explain the potential reason(s), based on the   concepts covered in   BFC5935.
+
+
+
+
+
+
+
+         
+加QQ：99515681  WX：codinghelp  Email: 99515681@qq.com
